@@ -3,17 +3,14 @@
 
 ## Getting started
 
-Make sure you script has execute permission:
+Make sure your script has `execute` permission:
 ```shell
 chmod +x ./ctl
 ```
 
 ### Usage
-```shell
-./ctl hello-world
-```
-or
-```shell
-./ctl hello-world OpenCodeCo
-```
 
+| Command | Description |
+| --- | --- |
+| `./ctl list` | List all available commands |
+| `./ctl hello-world` | Hello, World! |
